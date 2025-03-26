@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Verdana", serif;
+}
+
+.menu-container {
+    display: flex;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: rgb(175, 147, 159);
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+/* container for sign up and link with flex display */
+.container {
+    display: flex;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    background-color: #D6E9FE;
+}
+
+.second-container {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container,
+    .sub-container {
+    display: flex;
+    font-size: 20px;
+    height: 125px;
+    align-items: center;
+}
+
+.container {
+    justify-content: space-around;
+    background-color: rgb(62, 195, 184);
+}
+
+#reservation {
+    margin-left: 20px;
+}
+
+
+
+
+
