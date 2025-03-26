@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Tahoma';
 }
 
 .container,
-    .sub-container {
+.sub-container {
+    color: white;
     display: flex;
     font-size: 20px;
-    height: 125px;
+    height: 150px;
     align-items: center;
 }
 
@@ -20,6 +22,28 @@
 #reservation {
     margin-left: 20px;
 }
+
+#img {
+    height: 100px;
+}
+
+#subscribe {
+    height: 100px;
+}
+
+.image-container,
+.logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+
+
 
 
 
